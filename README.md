@@ -19,13 +19,17 @@
 
 ## 01. SOBRE MIM
 
-Sou estudante de **Sistemas de Informação**, com direcionamento profissional para Engenharia de Dados, automação e construção de soluções tecnológicas.
+Sou profissional de Tecnologia e Engenharia de Dados, com experiência na construção de pipelines ETL/ELT, integração de fontes, processamento e preparação de dados para consumo analítico.
 
-Minha trajetória combina experiência em operações logísticas e administração de sistemas com desenvolvimento de projetos envolvendo processamento, integração, armazenamento e análise de dados.
+Minha trajetória profissional inclui atuação na equipe de Tecnologia e Dados do 14º Batalhão de Infantaria Motorizado (14º BIMtz), em uma equipe de inteligência com suporte ao Comando Militar do Nordeste (CMNE). Iniciei como Assistente de Engenharia de Dados em 2022 e evoluí para Engenheiro de Dados, função exercida entre 2023 e 2025.
 
-Tenho interesse em construir soluções que resolvam problemas reais de negócio: desde a coleta de dados em diferentes fontes até a disponibilização de informações confiáveis para apoiar decisões.
+Tenho experiência com desenvolvimento e otimização de pipelines, processamento de dados estruturados e semiestruturados, modelagem, qualidade, integridade e governança da informação.
 
-**Meu objetivo:** desenvolver arquiteturas de dados eficientes, automatizadas, escaláveis e sustentáveis.
+Minha atuação técnica envolve Python, SQL, PySpark, PostgreSQL, APIs REST, Parquet, dbt, Apache Airflow e Docker, aplicando esses recursos na construção de soluções confiáveis e automatizadas.
+
+Também desenvolvo soluções tecnológicas para negócios, incluindo chatbots, automações e ferramentas para análise e tratamento de dados.
+
+**Meu direcionamento profissional:** projetar e desenvolver soluções de Engenharia de Dados que transformem fontes de informação em ativos confiáveis, estruturados e úteis para a tomada de decisão.
 
 ---
 
