@@ -1,34 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080808"/>
-      <stop offset="100%" stop-color="#191014"/>
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#1b080c"/>
     </linearGradient>
     <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B0000"/>
-      <stop offset="100%" stop-color="#FF3030"/>
+      <stop stop-color="#8b0000"/>
+      <stop offset="1" stop-color="#ff2525"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".055"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
     </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="1200" height="340" fill="url(#bg)"/>
-  <rect width="1200" height="340" fill="url(#grid)"/>
-  <path d="M830 0L1200 0L1200 340L980 340Z" fill="#B91C1C" opacity=".08"/>
-  <path d="M0 292H1200" stroke="#EF2020" stroke-opacity=".5"/>
-  <path d="M0 0H12V340H0Z" fill="url(#red)"/>
-  <g fill="none" stroke="#EF2020" stroke-width="2" opacity=".7">
-    <path d="M830 70H930V120H1010V180H1120"/>
-    <path d="M880 240H980V200H1080V150H1170"/>
-    <circle cx="830" cy="70" r="5" fill="#EF2020"/>
-    <circle cx="1010" cy="180" r="5" fill="#EF2020"/>
-    <circle cx="1170" cy="150" r="5" fill="#EF2020"/>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#grid)"/>
+  <rect width="9" height="380" fill="url(#red)"/>
+  <path d="M0 315H1200" stroke="#ef2020" stroke-opacity=".5"/>
+  <path d="M820 0L1200 0V380H1040Z" fill="#b91c1c" opacity=".08"/>
+  <g fill="none" stroke="#ef2020" stroke-width="2" opacity=".7">
+    <path d="M850 65H950V115H1040V165H1160"/>
+    <path d="M810 255H930V215H1050V265H1170"/>
+    <path d="M960 25V65M1040 165V195M1160 165V190"/>
+    <circle cx="850" cy="65" r="5" fill="#ef2020" filter="url(#glow)"/>
+    <circle cx="1040" cy="165" r="5" fill="#ef2020"/>
+    <circle cx="1170" cy="265" r="5" fill="#ef2020"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="75" y="105" fill="#EF2020" font-size="16" font-weight="bold" letter-spacing="5">RED CORE / DATA ENGINEERING</text>
-    <text x="72" y="190" fill="#FFFFFF" font-size="62" font-weight="bold" letter-spacing="1">FLÁVIO ALVES</text>
-    <text x="77" y="235" fill="#EF4444" font-size="22" letter-spacing="5">ENGINEERING THE DATA FLOW.</text>
-    <text x="78" y="275" fill="#A3A3A3" font-size="14" letter-spacing="2">PYTHON  /  SQL  /  DATA PIPELINES  /  AUTOMATION</text>
-    <text x="1090" y="315" fill="#737373" font-size="11" text-anchor="end" letter-spacing="3">SYSTEM 001</text>
+    <text x="75" y="91" fill="#ef2020" font-size="15" font-weight="bold" letter-spacing="6">RED CORE / PORTFÓLIO DE TECNOLOGIA</text>
+    <text x="72" y="180" fill="#ffffff" font-size="65" font-weight="bold" letter-spacing="1">FLÁVIO ALVES</text>
+    <text x="77" y="228" fill="#ff3030" font-size="23" font-weight="bold" letter-spacing="4">ENGENHARIA DE DADOS</text>
+    <text x="78" y="269" fill="#b0b0b0" font-size="16" letter-spacing="2">DADOS • AUTOMAÇÃO • ARQUITETURA • INTELIGÊNCIA</text>
+    <text x="78" y="345" fill="#777777" font-size="11" letter-spacing="3">CONSTRUINDO SOLUÇÕES. TRANSFORMANDO DADOS.</text>
+    <text x="1110" y="345" fill="#ef2020" font-size="12" text-anchor="end" letter-spacing="3">RC / 002</text>
   </g>
 </svg>
